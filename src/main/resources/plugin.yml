@@ -1,0 +1,12 @@
+name: AdminJoin_for_Nukkit
+main: cf.gamesukimanirs.adminjoin.Main
+version: 1.0.0
+author: gamesukimanIRS
+api: ["1.0.0"]
+commands:
+  setopjoin:
+    description: "OPがログインした時のメッセージを設定します。{name}はプレイヤー名に置き換えられます。(OP)"
+    usage: "/setopjoin <String:Message>"
+  setopquit:
+    description: "OPがログアウトした時のメッセージを設定します。{name}はプレイヤー名に置き換えられます。(OP)"
+    usage: "/setopquit <String:Message>"
